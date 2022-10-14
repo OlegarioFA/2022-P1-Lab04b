@@ -23,11 +23,25 @@ public class Lab04bvst extends Applet
 
         // DRAW SPHERE
         g.drawOval(500,50,250,250);
+        g.drawOval(525,50,200,250);
+        g.drawOval(550,50,150,250);
+        g.drawOval(575,50,100,250);
+        g.drawOval(600,50,50,250);
+
+        g.drawOval(500,75,250,200);
+        g.drawOval(500,100,250,150);
+        g.drawOval(500,125,250,100);
+        g.drawOval(500,150,250,50);
 
 
 
 
         // DRAW INSCRIBED/CIRCUMSCRIBED TRIANGLE
+        g.drawOval(600, 400, 200,200);
+        g.drawLine(700,400,775,565);
+        g.drawLine(700,400, 625,565);
+        g.drawLine(775,565,625,565);
+        g.drawOval(654, 465, 93,100);
 
 
 
